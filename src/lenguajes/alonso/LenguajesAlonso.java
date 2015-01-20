@@ -16,7 +16,7 @@ public class LenguajesAlonso {
      */
     public static void main(String[] args) {
         
-        System.out.println("Mi primer Programa de Java II");
+        System.out.println("Linea modificada");
         
         
     }
