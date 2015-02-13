@@ -39,8 +39,10 @@ public class Arreglos1 {
             
             System.out.println(x[i]);
         }
-        
-        
+        //for mejorado
+        for(int algo:x){
+            System.out.println(algo);
+        }
     }
     
 }
