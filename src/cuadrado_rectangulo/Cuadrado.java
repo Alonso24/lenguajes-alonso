@@ -12,6 +12,8 @@ package cuadrado_rectangulo;
 public class Cuadrado {
    private int lado;
    
+  
+   
    
    public void setLado(int lado){
    this.lado=lado;
