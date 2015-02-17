@@ -5,6 +5,8 @@
  */
 package unitec.proyecto.geometria;
 
+import javax.xml.crypto.dsig.spec.C14NMethodParameterSpec;
+
 /**
  *
  * @author T-301
@@ -35,14 +37,25 @@ public class Arreglos1 {
         
         //ITERAR
         
-        for(int i=0;i<x.length;i++){
+        int a=2;
+        float b=0;
+        System.out.println(a/b);
+
+        // for antiguo
+        for(int i=0;i<4;i++){
             
             System.out.println(x[i]);
         }
+          
+       
+        
+        System.out.println("Si ocurre la excepcion "+ "Nunca me veras");
+        
         //for mejorado
-        for(int algo:x){
-            System.out.println(algo);
+        for(int algodon:x){
+            System.out.println(algodon);
         }
+    Cuadrado c=new Cuadrado ();
     }
     
 }

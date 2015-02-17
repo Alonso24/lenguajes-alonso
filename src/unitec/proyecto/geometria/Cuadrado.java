@@ -6,13 +6,23 @@ package unitec.proyecto.geometria;
  */
 public class Cuadrado {
     
+    
     private float lado;
+   
+    /**
+     * Este constructor tiene un argumento
+     */
+    
+    
     
     public Cuadrado (){
+        
+       
         
     }
     public Cuadrado (float lado){
        this.lado=lado;
+       
    } 
     float calcularArea(){
         

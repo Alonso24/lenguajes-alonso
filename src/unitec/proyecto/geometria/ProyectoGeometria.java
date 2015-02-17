@@ -95,17 +95,24 @@ public class ProyectoGeometria extends javax.swing.JFrame {
        /*pedirle el valor del numero al campo texto
          y transformarlo a un numero real
         */
-        
+        try{
         Cuadrado c=new Cuadrado();
         c.setLado(Float.parseFloat(TextoLado.getText()));
         c.calcularArea();
         EtiquetaResultado.setText("El area es: " + c.calcularArea());
     }//GEN-LAST:event_BotonCalcularAreaActionPerformed
-
+    catch(Throwable e){
+        
+        EtiquetaResultado.setText(e.getMessage());
+    }
+        
+    }
+       
     /**
      * @param args the command line arguments
      */
     public static void main(String args[]) {
+        
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
         /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
