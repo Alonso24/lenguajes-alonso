@@ -20,7 +20,13 @@ public class Cuadrado {
        
         
     }
-    public Cuadrado (float lado){
+    public  Cuadrado (float lado) throws NumeroNoNegativoException{
+        
+        /*ValidarValorNoNegativo valida=new ValidarValorNoNegativo();
+                valida.validar(lado);
+        */
+        
+        ValidarValorNoNegativo.validar(lado);
        this.lado=lado;
        
    } 
@@ -35,7 +41,8 @@ public class Cuadrado {
         return lado;
     }
 
-    public void setLado(float lado) {
+    public void setLado(float lado) throws NumeroNoNegativoException {
+         ValidarValorNoNegativo.validar(lado);
         this.lado = lado;
     }
           
