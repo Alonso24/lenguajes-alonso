@@ -11,7 +11,7 @@ package unitec.proyecto.geometria;
  */
 public class ProbarConstructores {
     
-    public static void main(String[] args) {
+    public static void main(String[] args)throws NumeroNoNegativoException {
        
         float f=45;
         double dedos=45.2;

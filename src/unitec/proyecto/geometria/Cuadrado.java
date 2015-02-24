@@ -10,7 +10,8 @@ public class Cuadrado {
     private float lado;
    
     /**
-     * Este constructor tiene un argumento
+     * Este constructor tiene un argumento de tipo flotante
+     * lado . El parametro que debes ingresar es el valor del lado de tu cuadrado
      */
     
     
@@ -24,6 +25,11 @@ public class Cuadrado {
         
         /*ValidarValorNoNegativo valida=new ValidarValorNoNegativo();
                 valida.validar(lado);
+        */
+        
+       
+        /* FueraDeRangoException
+          ValidarValores.validarRango(lado)
         */
         
         ValidarValorNoNegativo.validar(lado);
