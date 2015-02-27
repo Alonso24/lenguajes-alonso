@@ -5,10 +5,7 @@
  */
 package unitec.proyecto.geometria;
 
-/**
- *
- * @author T-107
- */
+
 public class Circulo implements Superficies{
     
     private float radio;
@@ -21,7 +18,10 @@ public class Circulo implements Superficies{
     }
     
     public float calcularArea (){
+        
+        System.out.print("El area del circulo es: ");
         return 3.1416f*radio*radio;
+        
     }
 
     public float getRadio() {

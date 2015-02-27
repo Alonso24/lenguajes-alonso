@@ -4,7 +4,7 @@ package unitec.proyecto.geometria;
  *
  * @author T-107
  */
-public class Cuadrado {
+public class Cuadrado implements Superficies{
     
     
     private float lado;
@@ -36,8 +36,9 @@ public class Cuadrado {
        this.lado=lado;
        
    } 
-    float calcularArea(){
+    public float calcularArea(){
         
+        System.out.print("El area del cuadrado es: ");
         float area=lado*lado;
         return area;
         
