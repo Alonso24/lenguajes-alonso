@@ -17,7 +17,11 @@ public class ProbarThreads {
         Facil t11=new Facil();
         Reloj treloj=new Reloj();
         Regular r1=new Regular(); //r es de runnable
+        Hugo thugo=new Hugo();
+        Paco tpaco=new Paco();
+        Luis tluis=new Luis();
         Thread t2=new Thread(r1);
+        
         Thread t3=new Thread(new Runnable(){
 
             @Override
@@ -27,18 +31,18 @@ public class ProbarThreads {
             
         }
         );//constructor clase thrad
-        
-        
-        
-         //t1.setName("Petra");
-        //Paso 2: Inicializar
-        t1.start();
-        t11.start();
-        t2.start();
-        t3.start();
-        treloj.start();
-        
        
+        
+        //t1.setName("Petra");
+        //Paso 2: Inicializar
+        //t1.start();
+        //t11.start();
+        //t2.start();
+        //t3.start();
+        //treloj.start();
+          thugo.start();
+          tpaco.start();
+          tluis.start();
                  }
     
 }
