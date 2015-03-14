@@ -12,6 +12,10 @@ package com.capitulo6.threads;
 
 import java.util.*;
 public class Reloj extends Thread{
+
+    static void setText(String string) {
+        
+    }
     public void run(){
         while(true){
         try{
